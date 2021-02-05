@@ -12,4 +12,5 @@ def reverse_each_word(string)
   new_array = initial_array.map do |word|
     word.reverse
   end
+  new_array.join(" ")
 end
