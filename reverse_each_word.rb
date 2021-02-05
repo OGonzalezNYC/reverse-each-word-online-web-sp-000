@@ -9,6 +9,7 @@
 
 def reverse_each_word(string)
   initial_array = string.to_a
-  new_array = initial_array.map |word|
+  new_array = initial_array.map do |word|
     word.reverse
+  end
 end
